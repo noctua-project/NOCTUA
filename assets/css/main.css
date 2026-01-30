@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 /*
 	Dimension by HTML5 UP
@@ -141,7 +141,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Space Grotesk", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -152,7 +152,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		border-bottom: solid 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #0F0523;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -189,6 +189,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+			color: #ffffff;
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
@@ -704,6 +705,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.noctua {
+			display: flex;
+			justify-content: center;
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -1139,10 +1145,10 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			/* background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png"); */
+			background-size: auto, 256px 256px;
+			background-position: center, center;
+			background-repeat: no-repeat, repeat;
 			z-index: 2;
 		}
 
@@ -1155,7 +1161,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/JPG-Noctua-Gradient-Large.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1254,7 +1260,7 @@ input, select, textarea {
 		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		background-image: radial-gradient(rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 55%); */
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1276,7 +1282,7 @@ input, select, textarea {
 				left: calc(50% - 1px);
 				width: 1px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background: #0F0523;
 			}
 
 		#header > :first-child {
@@ -1288,11 +1294,12 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 16rem;
+			height: 4.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
+			border-bottom: solid 1px #0F0523;
+			border-radius: 0%;
+			padding: 0.5rem;
 		}
 
 			#header .logo .icon:before {
@@ -1301,13 +1308,14 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: #0F0523;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
 			max-width: 100%;
 		}
 
 			#header .content .inner {
+				color: #0F0523;
 				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
 				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
@@ -1340,13 +1348,13 @@ input, select, textarea {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 1px #0F0523;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 1px #0F0523;
 			}
 
 				#header nav ul li:first-child {
@@ -1354,6 +1362,7 @@ input, select, textarea {
 				}
 
 				#header nav ul li a {
+					color: #0F0523;
 					display: block;
 					min-width: 7.5rem;
 					height: 2.75rem;
@@ -1381,7 +1390,7 @@ input, select, textarea {
 			left: calc(50% - 1px);
 			width: 1px;
 			height: 100%;
-			background: #ffffff;
+			background: #0F0523;
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1633,7 +1642,22 @@ input, select, textarea {
 		text-align: center;
 	}
 
+		#footer .afoot {
+			-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+			border-bottom: solid 1px rgba(15, 5, 35, 0.5);
+			text-decoration: none;
+			color: inherit;
+		}
+
+		#footer .afoot:hover {
+			border-bottom-color: transparent;
+		}
+
 		#footer .copyright {
+			color: #0F0523;
 			letter-spacing: 0.2rem;
 			font-size: 0.6rem;
 			opacity: 0.75;
