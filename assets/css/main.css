@@ -647,8 +647,8 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
-			background-color: rgba(19, 21, 25, 0.5);
+			/* background-image: url("../../images/overlay.png");
+			background-color: rgba(19, 21, 25, 0.5); */
 			border-radius: 4px;
 			content: '';
 			display: block;
@@ -667,6 +667,10 @@ input, select, textarea {
 
 		.image.left, .image.right {
 			max-width: 40%;
+		}
+
+		.image.left.people, .image.right.people {
+			max-width: 28%;
 		}
 
 			.image.left img, .image.right img {
@@ -1447,7 +1451,7 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
+				width: 14.25rem;
 				height: 4.75rem;
 				line-height: 4.75rem;
 			}
@@ -1487,7 +1491,7 @@ input, select, textarea {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 1px #0F0523;
 					}
 
 						#header nav ul li:first-child {
